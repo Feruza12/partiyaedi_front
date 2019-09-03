@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "DidactGothic";
+  src: url("../fonts/DidactGothic/DidactGothic-Regular.ttf");
+  src: url("../fonts/DidactGothic/DidactGothic-Regular.woff");
+  src: url("../fonts/DidactGothic/DidactGothic-Regular.woff2");
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'DidactGothic', sans-serif;
+  color: white;
+}
+.background{
+  background: #000000;
+  height: 100%;
+  min-height:  100vh;
+  /* max-height: 100vh; */
+  text-align: center;
+}
+h1{
+	font-size: 1.7em;
+  font-weight: 500;
+  margin-top: 5%;
+}
+
+.logo_block{
+	width: 180px;
+	margin: auto;
+}
+.content{
+  margin-top: 25px;
+}
+.timer{
+  font-size: 3.7em;
+  color: #FFBF00;
+  font-weight: 700;
+}
+.download{
+  margin-top: 20px;
+}
+
+ul{
+  margin-left: 0;
+}
+ul li{
+  list-style: none;
+}
+.block{
+  margin-top: 5%;
+}
+.social{
+  margin-top: 3%;
+}
+
+@media only screen and (max-width: 576px) {
+    h1, h2{
+    	font-size: 1.7em;
+    }
+    ul li a img{
+    	width: 70%;
+    	height: 70%;
+    }
+    .timer{
+      font-size: 2.5em
+    }
+    .block{
+      margin-top: 15vh;
+    }
+    .social{
+      margin-top: 5vh;
+    }
+  
+}
