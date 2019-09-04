@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var endDate = new Date("Sep 10, 2019 12:00:00").getTime();
+    var endDate = new Date("Sep 11, 2019 12:00:00").getTime();
     var timer = setInterval(function () {
 
         let now = new Date().getTime();
