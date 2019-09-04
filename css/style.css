@@ -20,7 +20,7 @@ body{
   text-align: center;
 }
 h1{
-	font-size: 1.9em;
+	font-size: 40px;
   font-weight: 500;
   margin-top: 5%;
 }
@@ -30,7 +30,10 @@ h1{
 	margin: auto;
 }
 .content{
-  margin-top: 25px;
+  margin-top: 0px;
+}
+.content h1{
+  margin-top: 10px;
 }
 .timer{
   font-size: 3.7em;
@@ -38,7 +41,7 @@ h1{
   font-weight: 700;
 }
 .download{
-  margin-top: 20px;
+  margin-top: 4px;
 }
 
 ul{
