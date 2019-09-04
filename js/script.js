@@ -12,8 +12,6 @@ $(document).ready(function () {
             let mins = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
             let secs = Math.floor((t % (1000 * 60)) / 1000);
 
-            // document.getElementById("timer-days").innerHTML = days +
-            //     "<span class='label'> </span>";
             if(days >= 5){
                 document.getElementById("timer-days").innerHTML = days +
                 "<span class='label'> Дней</span>";
