@@ -73,6 +73,16 @@ ul li{
     }
     .social{
       margin-top: 5vh;
-    }s
+    }
+    .download li{
+      display: block;  
+    }
   
+    .download li img{
+      width: 150px;
+      margin-bottom: 8px; 
+    }
+    .download li:last-child img{
+      margin-bottom: 0px; 
+    }
 }
